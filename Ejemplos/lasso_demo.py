@@ -65,8 +65,10 @@ class LassoManager(object):
         if event.inaxes is None: return
         self.lasso = Lasso(event.inaxes, (event.xdata, event.ydata), self.callback)
         # acquire a lock on the widget drawing
-        # prueba de pedro newdata = [Datum(*xy) for xy in rand(100, 2)]
+        # prueba de pedro
+        # newdata = [Datum(*xy) for xy in rand(100, 2)]
         # LassoManager(ax, newdata)
+        # fin prueba pedro
         self.canvas.widgetlock(self.lasso)
 
 if __name__ == '__main__':
