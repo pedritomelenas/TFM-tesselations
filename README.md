@@ -1,6 +1,8 @@
 # Trabajo de fin de máster Teselaciones
 ## Alex Jurado
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pedritomelenas/TFM-tesselations/master?filepath=Tutorial%20de%20uso.ipynb)
+
 Este repositorio contiene una librería en python para el manejo y creación de teselaciones a partir de una imagen
 
 En el bloc [Tutorial de uso](https://github.com/pedritomelenas/TFM-tesselations/blob/master/Tutorial%20de%20uso.ipynb) están las instrucciones de uso
